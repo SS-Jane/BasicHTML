@@ -1,0 +1,75 @@
+/*External CSS*/
+#header{
+    margin: 5px 15px 15px 15px;
+    background: #333;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    color: aquamarine;
+    font-size: 250%;
+    font-style: oblique;
+    font-size: larger;
+}
+#footer{
+    margin: 15px 15px 15px 5px;
+    background: #333;
+    padding: 5px 5px 5px 5px;
+    font-size: 80%;
+    text-align: center;
+    color: aquamarine;
+}
+/* universal selector */
+*{
+    font-family : "lucida handwriting" , "Itim" , cursive ;
+    
+}
+#picture{
+    width: 50%;
+    border-radius: 10% 1% 10% 1%;
+}
+body{
+    /* background-image: url("/image/moon-1859616_1920.jpg") on-repeat ; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    background-size: contain;
+    /* background: url("/image/moon-8226250_1920.jpg") no-repeat fixed ; */
+}
+h1{
+    color: rgb(0, 60, 255);
+}
+h2{
+    color: rgb(255, 140, 0);
+}
+h3{
+    color: rgb(0, 255, 128);
+}
+h4{
+    color: rgb(0, 157, 255);
+}
+#main1{
+    margin: 5px 5px 5px 5px;
+    background: #c1eff5;
+    padding: 5px 5px 5px 5px;
+    color: rgb(0, 157, 255);
+    float:left;
+    width: 40%;
+}
+#main2{
+    margin: 5px 5px 5px 5px;
+    background: #c1eff5;
+    padding: 5px 5px 5px 5px;
+    color: rgb(0, 157, 255);
+    float:right;
+    width: 40%;
+}
+.clr{
+    clear:both;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color: black;
+}

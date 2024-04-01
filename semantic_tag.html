@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stype.css">
+    <title>Semantic Tag</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        ul{
+            padding:0;
+            list-style:none; 
+        }
+        body{
+            font-family: Century Gothic, Helvetica, sans-serif;
+            color: #333;
+            line-height: 1.4;
+        }
+        #header{
+            margin-bottom: 15px;
+            background: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        #main{
+            float:left;
+            width: 79%;
+        }
+        #sidebar{
+            float:right;
+            width:19%;
+        }
+        .clr{
+            clear:both;
+        }
+        #footer{
+            background: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        .text-center{
+            display:block;
+            text-align:center;
+        }
+        .card{
+            border: 2px solid #ddd;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <a href="../basic HTML/index.html"><i class="material-icons">home</i></a>
+
+    <!--Header-->
+    <header id="header" class="card">
+        <h1 style="font-size: 150%;">HEADER</h1>
+        <p>Super Jane</p>
+    </header>
+
+    <!--Main Content-->
+    <main id="main">
+        <!--Welcome Section-->
+        <section id="welcome" class="card">
+            <h2>Welcome to SuperWedSite</h2>
+            <p>
+                Front-end development involves creating 
+                the user interface and experience of a website or application. 
+                It includes HTML, CSS, and JavaScript to build responsive, visually appealing, 
+                and interactive interfaces for users.
+                <br><a href="#" class="text-center">First Page</a>
+            </p>
+        </section>
+        <!--Blog Section-->
+        <section id="blog">
+            <h2>Article</h2>
+            <!--Article 1-->
+            <article class="article">
+                <h3>Travel</h3>
+                <p>
+                    Thailand, a tropical paradise, offers vibrant cities, stunning beaches, and rich cultural experiences. 
+                    From bustling Bangkok to serene islands like Phuket, 
+                    travelers can explore ancient temples, indulge in delicious cuisine, 
+                    and enjoy diverse landscapes, making it a captivating destination.
+                    <br><a href="#">Click</a>
+                </p>
+            </article>
+            <!--Article 2-->
+            <article class="article">
+                <h3>Food</h3>
+                <p>
+                    Thai cuisine is renowned for its bold flavors and aromatic dishes. 
+                    With a perfect balance of sweet, sour, salty, and spicy, 
+                    Thai food includes iconic dishes like Pad Thai, Tom Yum soup, Green Curry, and Som Tum (green papaya salad), 
+                    showcasing the country's diverse and delicious culinary traditions.
+                    <br><a href="#">Click</a>
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <!--Sidebar-->
+    <aside id="sidebar" class="card">
+        <h3>Menu</h3>
+        <!--Navigation-->
+        <ul id="main-nav">
+            <li><a href="#">Main page</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our Job</a></li>
+        </ul>
+        <hr>
+        <h3>Contact us</h3>
+        <ul>
+            <li><strong>Address:</strong>111111111</li>
+            <li><strong>Tel-phone:</strong>222222222</li>
+            <li><strong>Email:</strong>333333@gmail.com</li>
+        </ul>
+    </aside>
+
+    <section class="clr"></section>
+
+    <!--Footer-->
+    <footer id="footer">
+        Copyright &copy; ไอหน้าหนวด
+    </footer>
+</body>
+</html>

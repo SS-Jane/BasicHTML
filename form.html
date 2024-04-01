@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stype.css">
+    <title>Register Form</title>
+</head>
+<body>
+    <a href="index.html"><i class="material-icons">home</i></a>
+    <div id="header">
+        Register Form
+        <hr>
+    </div>
+    <form >
+        <div>
+            <label for="firstname">First-Name</label>
+            <input type="text" name="fname" placeholder="Input your first name (a-z)" required>
+        </div>
+        <div>
+            <label for="lastname">Last-Name</label>
+            <input type="text" name="lname" placeholder="Input your last name (a-z)" required>
+        </div>
+        <div>
+            <label for="Email">E-mail</label>
+            <input type="email" name="email" placeholder="Input your E-mail" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Create your password" required>
+        </div>
+        <div>
+            <label for="re-password">Re-Password</label>
+            <input type="password" name="re-password" placeholder="Create your password" required>
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <textarea name="address" cols="10" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" min="0" max="99">    
+        </div>
+        <div>
+            <label for="dirtday">Birth Date</label>
+            <input type="date" name="birth-date" >    
+        </div>
+        <div>
+            <label for="tel">Phone number</label>
+            <input type="tel" name="phone_number" >   
+        </div>
+        <div>
+            <label for="education">Education</label>    
+                <select name="edu" id="">
+                    <option value="P.3">ป.3</option>
+                    <option value="P.6">ป.6</option>
+                    <option value="M.3">ม.3</option>
+                    <option value="M.6">ม.6</option>
+                    <option value="P.tri" selected="">ป.ตรี</option>
+                </select>
+        </div>
+
+        <div>
+            <label for="gender">Gender</label>    
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Another
+        </div>
+        <div>
+            <label for="fpet">Favorite pet</label>    
+            <input type="checkbox" name="fav">Cat
+            <input type="checkbox" name="fav">Dog
+            <input type="checkbox" name="fav">chicken
+            <input type="checkbox" name="fav">Snake
+            <input type="checkbox" name="fav">Another
+        </div>
+        <div>
+            <label for="picpet">Picture Pet</label>    
+            <input type="file">
+        </div>
+        <div>
+            <label for="social">You social</label>    
+            <input type="url">
+        </div>
+
+        <div>
+            <button type="submit">Summit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+
+        
+    </form>
+    <footer id="footer">
+        <h1 style="font-size: 100% ;" align="center">Copyright &copy; ไอหน้าหนวด</h1>
+    </footer>
+</body>
+</html>
