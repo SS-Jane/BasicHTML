@@ -67,9 +67,15 @@ h4{
 a{
     text-decoration: none;
 }
+/* Pseudo-classes */
 a:link{
     color:red;
 }
 a:visited{
-    color: black;
+    color: rgb(40, 3, 255);
+}
+a:hover{
+    text-decoration: underline;
+    background-color: blue;
+    color: red;
 }
