@@ -45,21 +45,13 @@ h3{
 h4{
     color: rgb(0, 157, 255);
 }
-#main1{
+#main1,#main2,#main3{
     margin: 5px 5px 5px 5px;
     background: #c1eff5;
     padding: 5px 5px 5px 5px;
     color: rgb(0, 157, 255);
     float:left;
-    width: 40%;
-}
-#main2{
-    margin: 5px 5px 5px 5px;
-    background: #c1eff5;
-    padding: 5px 5px 5px 5px;
-    color: rgb(0, 157, 255);
-    float:right;
-    width: 40%;
+    width: 33%;
 }
 .clr{
     clear:both;
@@ -67,13 +59,15 @@ h4{
 a{
     text-decoration: none;
 }
-/* Pseudo-classes */
+/* eudo-classes */
 a:link{
     color:red;
 }
+/* eudo-classes */
 a:visited{
     color: rgb(40, 3, 255);
 }
+/* eudo-classes */
 a:hover{
     text-decoration: underline;
     background-color: blue;
