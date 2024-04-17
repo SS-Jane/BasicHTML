@@ -1,16 +1,29 @@
 *{
     box-sizing: border-box;
+    /* flex-basis: 5; */
 }
 .flex-container{
     display: flex;
     background-color: aqua;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
 }
 .item{
     background: orange;
     border: 1px solid black;
-    width: 100%;
+    width: 200px;
     margin: 10px;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+}
+.item-1{
+    flex-basis: 10;
+}
+.item-2{
+    /* flex-basis: 10rem; */
+    flex-shrink: 10; 
+}
+.item-3{
+    flex-grow: 10;
 }

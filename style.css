@@ -20,7 +20,7 @@
 /* universal selector */
 *{
     font-family : "lucida handwriting" , "Itim" , cursive ;
-    
+    box-sizing: border-box;
 }
 #picture{
     width: 50%;
@@ -50,8 +50,11 @@ h4{
     background: #c1eff5;
     padding: 5px 5px 5px 5px;
     color: rgb(0, 157, 255);
-    float:left;
-    width: 30%;
+    /* float:left; */
+    /* width: 33%; */
+    border-radius: 10px;
+    /* flex-basis: auto; */
+    flex:1;
 }
 .clr{
     clear:both;
