@@ -5,26 +5,33 @@
 .flex-container{
     display: flex;
     background-color: aqua;
+    height: 100vh;
     flex-direction: row;
     /* flex-wrap: wrap; */
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: flex-start;
 }
 .item{
     background: orange;
     border: 1px solid black;
-    width: 200px;
+    /* width: 200px; */
     margin: 10px;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+    flex:2;
 }
-/* .item-1{
-    flex-basis: 10;
+.item-1{
+    /* flex-basis: 10; */
+    align-self: start;
 }
 .item-2{
-    
-    flex-shrink: 10; 
+    align-self: self-end;
 }
 .item-3{
-    flex-grow: 10;
-} */
+    /* flex-grow: 10; */
+    align-self: center;
+}
+.item-5{
+    align-self: flex-end;
+}
