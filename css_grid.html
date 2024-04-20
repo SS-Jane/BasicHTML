@@ -15,15 +15,27 @@
         }
         .grid-container{
             display: grid;
-            grid-template-rows: repeat(4,100);
+            grid-template-rows: repeat(3,100);
             /* grid-template-columns: 200px 200px 200px; */
-            grid-template-columns: repeat(2,auto);
+            grid-template-columns: repeat(3,auto);
         }
+        .item:first-child{
+            background-color: olive;
+            /* Merg Column */
+            /* grid-column-start: 1;
+            grid-column-end: 4; */
+            grid-column:1/4;
+        }
+        .item:last-child{
+            background-color: aquamarine;
+            grid-column: 1/4;
+        }
+        
     </style>
 </head>
 <body>
     <div class="grid-container">
-        <div class="item">Item 1</div>
+        <div class="item">Herder</div>
         <div class="item">Item 2</div>
         <div class="item">Item 3</div>
         <div class="item">Item 4</div>
@@ -31,8 +43,7 @@
         <div class="item">Item 6</div>
         <div class="item">Item 7</div>
         <div class="item">Item 8</div>
-        <div class="item">Item 9</div>
-        <div class="item">Item 10</div>
+        <div class="item">Footer</div>
     </div>
 </body>
 </html>
