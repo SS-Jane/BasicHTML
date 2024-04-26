@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Selector</title>
+    <style>
+        p{
+            background-color: bisque;
+        }
+        /* Descendant Selector */
+        div#targeted-selectors p{
+            background-color: green;
+        }
+        /* Child Selector */
+        div#targeted-selectors>p{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div id="targeted-selectors">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nemo!</p>
+        <ul>
+            <li><p>Item 1</p></li>
+            <li><p>Item 1</p></li>
+            <li><p>Item 1</p></li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
